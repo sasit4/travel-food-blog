@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bhaiksuki&display=swap');
+
+body {
+    font-family: "Noto Sans Bhaiksuki", sans-serif;
+    background-color: hsl(210, 17%, 98%);
+}
+
+.your {
+    font-family: "Noto Sans Bhaiksuki", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 1000px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.search input {
+    width: 180px;
+    border-radius: 20px;
+    padding: 1px;
+    text-align: center;
+}
+
+
+
+/*home section*/
+.level2 {
+    display: flex;
+    background-color: aquamarine;
+    background-image: url(img/3taskkorean\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.level2 p {
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.information {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(250, 250, 250), white, white, transparent);
+    padding: 50px 80px;
+    width: 750px;
+}
+
+.information h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.information p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.information a {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 8px 29px;
+    font-weight: 500;
+}
+
+.title h3 {
+    margin: 23px;
+}
+
+
+/*about section*/
+.level3 {
+    background-image: url(img/3taskkorean\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+   background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+.inner{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 4000px;
+    
+}
+.level3 .img1{
+    height: 500px;
+    width: 300px;
+    margin-top: 25px;
+    color: white;
+}
+.level3 img{
+    width: 300px;
+    height: 300px;
+    
+}
+.level3 p{
+    font-size: 15px;
+}
+
+
+/*feature section*/
+.level4 .domi {
+    display: flex;
+    justify-content: right;
+    gap: 45px;
+    
+}
+
+.box {
+    border: 2px solid black;
+    height: 170px;
+    margin-top: 59px;
+}
+
+.box h5 {
+    font-size: 25px;
+    font-weight: 650;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.category-list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 0;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 8px;
+    color: #111;
+}
+
+
+/*categories section*/
+.categories {
+    background-color: rgb(224, 225, 225);
+    width: 450px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.categories p {
+    font-size: 18px;
+}
+
+.categories h4 {
+    font-size: 29px;
+    margin-top: 20px;
+
+}
+
+/*contect section*/
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
